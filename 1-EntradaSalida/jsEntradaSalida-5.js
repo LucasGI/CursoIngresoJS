@@ -4,8 +4,8 @@ function mostrar()
 {	
     var nombre;
     var edad;
-    nombre=document.getElementById("elNombre").Value;
-    edad=document.getElementById("laEdad").Value;
-    
+    nombre = document.getElementById("elNombre").Value;
+    edad = document.getElementById("laEdad").Value;
+    var union = 
 }
 
