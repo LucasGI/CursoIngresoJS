@@ -1,7 +1,6 @@
 function mostrar()
 {
-	//alert('iteración while');
-	
+	alert('iteración while');
 
 
 }//FIN DE LA FUNCIÓN
