@@ -37,7 +37,7 @@ marca=prompt("ingrese la marca: ");
 fabricante=prompt("ingrese el fabricante: ");
 
 
-if(flag==0 || tipo=="Barbijos" && precio>barbijoCaro){
+if(tipo=="Barbijos" && precio>barbijoCaro || flag==0){
 barbijoCaro=precio;
 cantBarbijo=cant;
 fabricanteCaro=fabricante;
@@ -48,10 +48,10 @@ else if(tipo=="jabon"){
 contadorJabon=contadorJabon+cant;
 }
 
-if(flag2==0 || cant>cantitemMas){
+if(cantitemMas==0 || cant>cantitemMas){
 	cantitemMas=cant;
 	itemMas=fabricante;
-	flag=1
+	
 }
 
 
